@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sigin</title>
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="css/normaliz.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+
+
+
+
+
+    <div class="container">
+        <div class="row py-5">
+
+
+            <div class="signin text-center  w-75  rounded-4  mx-auto py-5 px-3" id="register">
+
+                <h2>Smart Login System</h2>
+
+
+                <div class="input-group">
+                    <input required="" type="text" name="text" class="input w-100 my-3 " id="nameInput"
+                        placeholder="Name">
+                    <label class="user-label">Name</label>
+
+                </div>
+                <p class="  text-danger p-0 d-none " id="alertName"> Must be at least 3 letters and it requird
+                </p>
+
+
+                <div class="input-group">
+                    <input required="" type="text" name="text" class="input w-100 my-3" id="emailInput"
+                        placeholder="Email">
+                    <label class="user-label">Email</label>
+
+                </div>
+                <p class=" text-danger p-0 d-none" id="alertEmail"> It must be like this name@example.com and it requird
+                </p>
+
+
+                <div class="input-group">
+                    <input required="" type="password" name="text" class="input w-100 my-3" id="passwordInput"
+                        placeholder="Password">
+                    <label class="user-label">Password</label>
+
+
+                </div>
+                <p class=" text-danger p-0 d-none" id="alertPassword"> Must be at least 3 characters and it requird </p>
+
+
+
+
+                <p class=" alert bg-danger  p-1 text-light d-none" id="alertExist"> Email is Exist </p>
+                <p class=" alert bg-success  p-1 text-light d-none" id="Success"> Success </p>
+
+                <button onclick=addUser() class="w-100 btn-sm my-2 fw-bold" id="btnsignup">signUP</button>
+
+
+                <span class="fw-bold _777 ">You have an account? </span>
+                <a href="index.html" class="teal" id="signIn">Sign in</a>
+
+
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/main.js"></script>
+</body>
+
+</html>
